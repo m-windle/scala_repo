@@ -28,6 +28,8 @@ object addition {
   println(total)
 }
 
+/**TIMER TUTORIAL**/
+
 object timer {
   def oncePerSecond (callback: () => Unit) {
     while(true) { callback(); Thread sleep 1000}
