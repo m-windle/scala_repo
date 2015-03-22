@@ -11,9 +11,9 @@ object main {
   def main(args: Array[String]){
     frenchDate
     addition
-    //timerAnonymous
     val fred = new Complex(1.5, 2.3);
     println(fred.im())
+    timerAnonymous
   }
 }
 
