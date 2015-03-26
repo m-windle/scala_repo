@@ -14,6 +14,10 @@ object main {
 	}
 }
 
+/*
+* WIP: Trying to understand substrings 
+* and the String class in Scala
+*/
 def subString(output: String) { 
 	val notes = "ABCDEFG"
 	val sub1 = notes.substring(2)
