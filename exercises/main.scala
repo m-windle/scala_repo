@@ -10,17 +10,22 @@ object main {
 	def main(args: Array[String]){
 		println("Hello world!!")
 		println()
-		println(subString())
+		val input = "ABCDEFG"
+		println(substring.subString(input))
+		println(add(2, 2))
 	}
+
+	def add(int1: Int, int2: Int) : Int = int1 + int2
 }
 
 /*
 * WIP: Trying to understand substrings 
 * and the String class in Scala
-*/
-def subString(output: String) { 
-	val notes = "ABCDEFG"
-	val sub1 = notes.substring(2)
-	val sub2 = notes.substring(0,2)
-	output = sub1.concat(sub2)
-}
+*/ 
+object substring{
+	def subString(output: String) : String = { 
+		val sub1 = output.substring(2)
+		val sub2 = output.substring(0,2)
+		sub1.concat(sub2)
+	}
+} 
